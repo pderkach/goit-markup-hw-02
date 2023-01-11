@@ -1,0 +1,56 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.header {
+}
+
+.header-navigation {
+}
+
+.header-logo {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+
+.header-list {
+}
+
+.header-item {
+}
+
+.header-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.header-mail {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.header-phone {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
