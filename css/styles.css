@@ -1,0 +1,54 @@
+/* колір навігації NAVY BLUE color: #2E2F42 */
+/* колір адрес SLATE color: #434455; */
+/* колір h1 WHITE color: #FFFFFF; */
+/* колір кнопки IRIS стндрт #4D5AE5; */
+/* колір кнопки IRISч ховер #4D5AE5; */
+/* колір кнопки клік #404BBF; */
+/* колір тексту основний NAVY BLUE color: #2E2F42 */
+/* колір тексту дрібний SLATE color: #434455; */
+
+
+
+
+
+
+body {
+    background-color: #fff;
+    color: #2E2F42;
+}
+
+.list {
+    list-style: none;
+}
+
+/* Site Nav */
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #434455;
+}
+
+/* Contacts */
+
+.contacts {
+    color: #434455;
+    font-style: normal;
+}
+
+.contacts:hover {
+    color: #4D5AE5;
+}
+
+/* Hero */
+
+.hero {
+}
+.hero-title {
+}
+.hero-btn {
+}
+
+
+
+
+
