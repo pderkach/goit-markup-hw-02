@@ -1,54 +1,176 @@
-/* колір навігації NAVY BLUE color: #2E2F42 */
-/* колір адрес SLATE color: #434455; */
-/* колір h1 WHITE color: #FFFFFF; */
-/* колір кнопки IRIS стндрт #4D5AE5; */
-/* колір кнопки IRISч ховер #4D5AE5; */
-/* колір кнопки клік #404BBF; */
-/* колір тексту основний NAVY BLUE color: #2E2F42 */
+/* колір тексту основний NAVY BLUE color: #2E2F42; */
+
 /* колір тексту дрібний SLATE color: #434455; */
 
+/* колір адрес SLATE color: #434455;  */
 
+/* колір адрес IRIS ховер color: #4D5AE5; */
 
+/* колір кнопки IRIS стандарт color: #4D5AE5; */
 
+/* колір кнопки IRIS ховер color: #4D5AE5; */
 
+/* колір кнопки клік Free Speech Blue color: #404BBF; */
 
-body {
-    background-color: #fff;
-    color: #2E2F42;
+/* колір тексту footer color: color:  */
+
+/* колір WHITE color: #FFFFFF; */
+
+/* CSS-variables */
+:root {
+    --primary-white-color: #FFFFFF;
+    --primary-text-color: #2E2F42;
+    --tagline-text-color: #434455;
+    --accent-color: #4D5AE5;
+    --button-click-color: #404BBF;
+    --footer-text-color: #E7E9FC;
 }
 
+/* For all */
+a {
+    text-decoration: none;
+}
 .list {
     list-style: none;
 }
 
+/* Body */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-text-color);
+    background-color: var(--primary-white-color);
+}
+
+/* Header */
+
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 0.75;
+    text-transform: uppercase;
+}
+.logo-web {
+    color: var(--accent-color);
+}
+.logo-studio {
+    color: var(--primary-text-color);
+}
+
 /* Site Nav */
 
+.site-nav{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color: #434455;
+    color: var(--tagline-text-color);
+}
+.link.current {
+    color: var(--accent-color);
 }
 
 /* Contacts */
 
 .contacts {
-    color: #434455;
+    font-family: 'Roboto';
     font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--tagline-text-color);
 }
-
-.contacts:hover {
-    color: #4D5AE5;
+.contacts:hover,
+.contacts:focus {
+    color: var(--accent-color);
+}
+.tagline {
+    color: var(--tagline-text-color);
 }
 
 /* Hero */
 
 .hero {
+    background-color: var(--primary-text-color);
 }
 .hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    color: var(--primary-white-color);
 }
 .hero-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 2;
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+    cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: var(--accent-color);
+}  
+.hero-btn:active {
+    background-color: var(--button-click-color);
 }
 
+/* Titles & taglines */
 
+.features-title {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+.section-title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+}
+.img-title {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+.tagline {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
 
+/* Footer */
 
+.footer {
+    background-color: var(--primary-text-color);
+}
+.footer-tagline {
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--footer-text-color);
+}
+.footer-logo {
+    color: var(--primary-white-color);
+}
+.footer-studio {
+    color: var(--primary-white-color);
+}
 
+/* Portfolio */
+
+.filter-btn {
+    color: var(--accent-color);
+}
+.filter-btn:hover {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+    cursor: pointer;
+}
