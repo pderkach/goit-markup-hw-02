@@ -106,7 +106,7 @@ body {
     letter-spacing: 0.02em;
     color: var(--primary-white-color);
 }
-.hero-btn {
+.hero-button {
     font-family: 'Roboto'; 
     font-weight: 500;
     font-size: 16px;
@@ -116,11 +116,11 @@ body {
     color: var(--primary-white-color);
     cursor: pointer;
 }
-.hero-btn:hover,
-.hero-btn:focus {
+.hero-button:hover,
+.hero-button:focus {
     background-color: var(--accent-color);
 }  
-.hero-btn:active {
+.hero-button:active {
     background-color: var(--button-click-color);
 }
 
@@ -169,7 +169,7 @@ body {
 
 /* Portfolio */
 
-.filter-btn {
+.filter-button {
     font-family: 'Roboto';
     font-weight: 500;    
     font-size: 16px;
@@ -177,7 +177,7 @@ body {
     letter-spacing: 0.04em;
     color: var(--accent-color);
 }
-.filter-btn:hover {
+.filter-button:hover {
     background-color: var(--accent-color);
     color: var(--primary-white-color);
     cursor: pointer;
