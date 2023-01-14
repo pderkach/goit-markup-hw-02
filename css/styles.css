@@ -49,6 +49,7 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height: 0.75;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 .logo-web {
@@ -61,10 +62,10 @@ body {
 /* Site Nav */
 
 .site-nav{
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -73,15 +74,17 @@ body {
 .link.current {
     color: var(--accent-color);
 }
+.link {
+    color: var(--tagline-text-color);
+}
 
 /* Contacts */
 
 .contacts {
-    font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--tagline-text-color);
 }
 .contacts:hover,
@@ -98,15 +101,16 @@ body {
     background-color: var(--primary-text-color);
 }
 .hero-title {
-    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
+    letter-spacing: 0.02em;
     color: var(--primary-white-color);
 }
-.hero-btn {
+.hero-btn { 
     font-weight: 500;
     font-size: 16px;
-    line-height: 2;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     background-color: var(--accent-color);
     color: var(--primary-white-color);
     cursor: pointer;
@@ -122,28 +126,26 @@ body {
 /* Titles & taglines */
 
 .features-title {
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 .section-title {
-    font-family: 'Roboto';
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.1;
+    letter-spacing: 0.02em;
 }
 .img-title {
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 .tagline {
-    font-family: 'Roboto';
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /* Footer */
@@ -152,9 +154,9 @@ body {
     background-color: var(--primary-text-color);
 }
 .footer-tagline {
-    font-family: 'Roboto';
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--footer-text-color);
 }
 .footer-logo {
@@ -167,6 +169,11 @@ body {
 /* Portfolio */
 
 .filter-btn {
+    font-family: 'Roboto';
+    font-weight: 500;    
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     color: var(--accent-color);
 }
 .filter-btn:hover {
