@@ -1,22 +1,18 @@
 /* колір тексту основний NAVY BLUE color: #2E2F42; */
-
 /* колір тексту дрібний SLATE color: #434455; */
-
 /* колір адрес SLATE color: #434455;  */
-
 /* колір адрес IRIS ховер color: #4D5AE5; */
-
 /* колір кнопки IRIS стандарт color: #4D5AE5; */
-
 /* колір кнопки IRIS ховер color: #4D5AE5; */
-
 /* колір кнопки клік Free Speech Blue color: #404BBF; */
-
 /* колір тексту footer color: color:  */
-
 /* колір WHITE color: #FFFFFF; */
 
+
+
+
 /* CSS-variables */
+
 :root {
     --primary-white-color: #FFFFFF;
     --primary-text-color: #2E2F42;
